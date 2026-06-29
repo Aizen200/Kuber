@@ -3,11 +3,11 @@ const moneySchema= new mongoose.Schema({
     user:{
         type:mongoose.Schema.ObjectId,
         ref:"User",
-        require:true
+        required:true
     },
     income:{
         type:Number,
-        require:true
+        required:true
 
     }
 })
